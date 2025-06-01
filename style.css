@@ -8,6 +8,7 @@ p{
     font-weight: 300;
     color: #111;
     text-align: center;
+    cursor: default;
 }
 .Banniere{
     
@@ -82,11 +83,12 @@ p{
   align-items: center;
   display: block;
   margin: 10px auto;
+  transition: 0.3s ease-in-out;
 }
 
 .formulaire-Inscription button:hover {
   background-color: #218838;
-  padding: 20px;
+  transform: scale(1.2);
   
   
 }
