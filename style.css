@@ -65,6 +65,7 @@ p{
   display: flex;
   flex-direction: column;
   gap: 15px;
+  box-shadow: 2px 4px 5px 2px black;
 }
 
 .formulaire-Inscription input,
@@ -134,6 +135,7 @@ form {
   display: flex;
   flex-direction: column;
   gap: 15px;
+  box-shadow: 2px 4px 5px 2px black;
 }
 
 .formulaire-Connexion input,
