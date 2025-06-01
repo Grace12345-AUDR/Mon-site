@@ -16,7 +16,7 @@ function recupere(){
   return regex.test(email);
 }
 
-if(!nom || !mdp || !num || !prenom || !email || num > 8 || nom.length > 20 || prenom.length > 30 || estEmailValide(email) == false){
+if(!nom || !mdp || !num || !prenom || !email || num.length > 8 || nom.length > 20 || prenom.length > 30 || estEmailValide(email) == false){
         console.log("vous avez oublié de remplir un champ")
     }else{
     inscription(nom, mdp, num, prenom, email)}
